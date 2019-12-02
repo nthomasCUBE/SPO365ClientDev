@@ -11,11 +11,10 @@ namespace CSOM_Console
         static void Main(string[] args)
         {
             var url = "http://sp2019/";
-            var includeOnlien = true;
-
+            var includeOnline = true;
 
             //Using Explicit Credential - use for SPO
-            if (includeOnlien)
+            if (includeOnline)
             {
                 var spourl = "https://integrationsonline.sharepoint.com/sites/devgrp";
                 var user = "alexander.pajer@integrations.at";
